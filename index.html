@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/style.css">
+</head>
+<body>
+	<div class="d-flex flex-wrap align-items-stretch">
+		
+		<div class="col-lg-7 col-12 order-lg-1 order-1 min-vh-100 d-flex align-items-center justify-content-center bg-login">
+			<div class="text-light p-5 pb-2">
+		  		<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		  		tempor incididunt ut labore et dolore magna aliqua.</h3>
+			</div>
+		</div>
+
+		<div class="col-lg-5 col-12 order-lg-2 order-2 min-vh-100 d-flex align-items-center justify-content-center">
+			<div class="p-5 w-100">
+				<h4 class="text-primary">LOGIN FORM</h4>
+				<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>	
+				<form autocomplete="off" id="loginForm">
+			  		<div class="form-group">
+				 		<label for="email">Email</label>
+				  		<input id="email" type="email" class="form-control" required>
+					</div>
+  
+					<div class="form-group">
+				 		<label for="password">Password</label>
+				  		<input id="password" type="password" class="form-control" required>
+					</div>
+				
+					<div class="form-group">
+						<span class="float-left mt-1">
+			  				<a href="#">Forgot password?</a> <br>
+			  				<a href="register.html">I dont have an account</a>
+						</span>
+						<div class="text-right">
+				  			<button type="submit" class="btn btn-primary">Login</button>
+						</div>
+					</div>
+		  		</form>
+			</div>
+		</div>
+
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="dist/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+	<script>
+		$("#loginForm").validate({
+			rules: {
+				email: {
+					required: true,
+					email: true
+				},
+				password: {
+					required: true,
+				},
+			}
+		});
+	</script>
+</body>
+</html>

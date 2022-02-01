@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+.form-control{
+	border-radius: 14px !important;
+	box-shadow: none !important;
+	padding: 24px !important;
+}
+
+.btn{
+	border-radius: 14px !important;
+	box-shadow: none !important;
+	padding: 12px !important;
+}
+
+.bg-login{
+	background-image: url(../img/login.jpg) !important;
+	background-size:cover !important;
+}
+
+.bg-register{
+	background-image: url(../img/register.jpg) !important;
+	background-size:cover !important;
+}
