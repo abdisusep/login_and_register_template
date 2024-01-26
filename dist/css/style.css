@@ -17,11 +17,11 @@
 }
 
 .bg-login{
-	background-image: url(../img/login.jpg) !important;
+	background-image: url(../img/bg.jpg) !important;
 	background-size:cover !important;
 }
 
 .bg-register{
-	background-image: url(../img/register.jpg) !important;
+	background-image: url(../img/bg.jpg) !important;
 	background-size:cover !important;
 }
